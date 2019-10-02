@@ -1,0 +1,26 @@
+*title Penguin's Choice, Or Showdown at the Zoo!
+*author Jeff Creswell
+*comment *scene_list
+*comment  startup
+
+*create leadership 50
+*create strength 50
+
+Welcome to the zoo!  Specifically, the penguin habitat.
+
+Things are cool here, literally and figuratively, but lately you've been feeling a little blue.  Your name is Puggelump, and you WILL be the first penguin ever to fly.
+
+*page_break
+
+Butterump, your crushingly beloved crush, is watching you with interest.
+There's an icy ramp nearby over the lagoon where your people frolic.  You could try your flipper-y wings at 'flying' off it to impress her.  Or, maybe it would be safer simply to wave?  What will you do?
+
+*choice
+  #Wave and nod your beak in an avian smile.
+    She waves back merrily and all your white feathers flush red for a moment.
+    *finish
+  #Go for it -- let's fly right now!
+    You race up to the top of Mt. Snifflins and dive towards the ramp, sliding along on your svelte belly feathers.  With a *WHOOSH* you sail off the end of the ramp and then splash down into the lagoon smooth as a polished beak.
+    Butterump claps her flippers together enthusiastically and cheers you on.  That was spectacular, but it still wasn't flying...
+    *finish
+  

@@ -1,10 +1,11 @@
 *title Penguin's Choice, Or Showdown at the Zoo!
 *author Jeff Creswell
-*comment *scene_list
-*comment  startup
+*scene_list
+  startup
+  habitat
 
-*create leadership 50
-*create strength 50
+*create daring 0
+*create affinity_butterump 10
 
 Welcome to the zoo!  Specifically, the penguin habitat.
 
@@ -12,15 +13,19 @@ Things are cool here, literally and figuratively, but lately you've been feeling
 
 *page_break
 
-Butterump, your crushingly beloved crush, is watching you with interest.
+Butterump, your crushingly beloved crush, is watching you with interest.  She's a sweet girl, though a little timid at times; she's basically everyone's big sister and her main concern tends to be ensuring all of penguinkind is safe and sound.
 There's an icy ramp nearby over the lagoon where your people frolic.  You could try your flipper-y wings at 'flying' off it to impress her.  Or, maybe it would be safer simply to wave?  What will you do?
 
 *choice
   #Wave and nod your beak in an avian smile.
-    She waves back merrily and all your white feathers flush red for a moment.
+    She waves back merrily and your white plumage appears pink for a moment as the skin beneath flushes scarlet.
+    *set daring -10
+    *set affinity_butterump +25
     *finish
   #Go for it -- let's fly right now!
     You race up to the top of Mt. Snifflins and dive towards the ramp, sliding along on your svelte belly feathers.  With a *WHOOSH* you sail off the end of the ramp and then splash down into the lagoon smooth as a polished beak.
-    Butterump claps her flippers together enthusiastically and cheers you on.  That was spectacular, but it still wasn't flying...
+    Butterump gasps as your body turns into a tuxedo blur at the apex of your descent speed, but once you surface triumphantly you find her clapping her flippers together enthusiastically and cheering you on.  That was spectacular, but it still wasn't flying...
+    *set daring +25
+    *set affinity_butterump +10
     *finish
   

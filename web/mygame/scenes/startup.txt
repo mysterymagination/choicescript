@@ -5,7 +5,10 @@
   habitat
 
 *create daring 0
-*create affinity_butterump 10
+*create butterump_amor 60
+*create butterump_adversary 40
+*create health 100
+*create stamina 100
 
 Welcome to the zoo!  Specifically, the penguin habitat.
 
@@ -14,18 +17,21 @@ Things are cool here, literally and figuratively, but lately you've been feeling
 *page_break
 
 Butterump, your crushingly beloved crush, is watching you with interest.  She's a sweet girl, though a little timid at times; she's basically everyone's big sister and her main concern tends to be ensuring all of penguinkind is safe and sound.
-There's an icy ramp nearby over the lagoon where your people frolic.  You could try your flipper-y wings at 'flying' off it to impress her.  Or, maybe it would be safer simply to wave?  What will you do?
+
+There's an icy ramp nearby over the lagoon where your people frolic.  You could try your flipper-y wings at 'flying' off it to impress her; it'd cost some energy and could hurt a smidge, but darn would it ever be epic.  Or, maybe it would be safer simply to wave?  What will you do?
 
 *choice
   #Wave and nod your beak in an avian smile.
     She waves back merrily and your white plumage appears pink for a moment as the skin beneath flushes scarlet.
     *set daring -10
-    *set affinity_butterump +25
+    *set butterump_amor +25
     *finish
   #Go for it -- let's fly right now!
     You race up to the top of Mt. Snifflins and dive towards the ramp, sliding along on your svelte belly feathers.  With a *WHOOSH* you sail off the end of the ramp and then splash down into the lagoon smooth as a polished beak.
     Butterump gasps as your body turns into a tuxedo blur at the apex of your descent speed, but once you surface triumphantly you find her clapping her flippers together enthusiastically and cheering you on.  That was spectacular, but it still wasn't flying...
     *set daring +25
-    *set affinity_butterump +10
+    *set butterump_adversary +10
+    *set health -10
+    *set stamina -25
     *finish
   

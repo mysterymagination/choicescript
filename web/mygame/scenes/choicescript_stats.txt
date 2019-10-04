@@ -1,0 +1,5 @@
+*stat_chart
+  percent health
+  percent stamina
+  opposed_pair butterump_amor
+    butterump_adversary

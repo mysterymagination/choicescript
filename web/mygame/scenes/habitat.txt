@@ -2,5 +2,6 @@ The penguin habitat is a fairly nice approximation of Antarctica, from whence yo
 
 *comment how does one cat lines together conditionally, ideally without formatting madness?
 *if bImpressiveDive
-    Climbing out of the lagoon, you shake yourself dry.
+    Climbing out of the lagoon, you shake yourself dry.    
 Butterump is glancing at your shyly and looking swiftly away with a giggle every time you meet her gaze.  Flight is important, but it isn't everything... That's it!  The time has come: you should invite Butterump to play in one of the habitat's lovely locales.  
+*finish

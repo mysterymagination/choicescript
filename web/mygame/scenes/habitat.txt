@@ -1,1 +1,6 @@
-The penguin habitat is a fairly nice approximation of Antarctica, from whence your people hail. 
+The penguin habitat is a fairly nice approximation of Antarctica, from whence your people hail. In addition to Mt. Snifflins with its many crags and crevasses, there is the icy and lovily relaxing Cocoon Lagoon, the harrowing Blustery Bluff, and the frolicsome Cozy Cove tucked in beside the lagoon.   
+
+*comment how does one cat lines together conditionally, ideally without formatting madness?
+*if bImpressiveDive
+    Climbing out of the lagoon, you shake yourself dry.
+Butterump is glancing at your shyly and looking swiftly away with a giggle every time you meet her gaze.  Flight is important, but it isn't everything... That's it!  The time has come: you should invite Butterump to play in one of the habitat's lovely locales.  

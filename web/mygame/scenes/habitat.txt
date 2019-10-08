@@ -4,4 +4,19 @@ The penguin habitat is a fairly nice approximation of Antarctica, from whence yo
 *if bImpressiveDive
     Climbing out of the lagoon, you shake yourself dry.    
 Butterump is glancing at your shyly and looking swiftly away with a giggle every time you meet her gaze.  Flight is important, but it isn't everything... That's it!  The time has come: you should invite Butterump to play in one of the habitat's lovely locales.  
-*finish
+*choice
+    *selectable_if(stamina >= 25) #Ask her to climb Mt. Snifflins (cost: 25% stamina)
+        Butterump grins excitedly at the prospect of the challenging climb, and the two of you set off immediately.  At one point, near the summit, when your flippers were nearly frozen to your feathers, you nearly slipped into a crevasse.  You may well have met your end there, but Butterump caught you by the tail and hauled you (painfully) back to safety.  What with near death and all, the two of you bonded nicely over the adventure.  Not much chance to talk, though; it's a tough climb!  While you didn't learn much more about her hopes and dreams, you did learn she is apparently stronger than you (you never could manage a pull-up).  Could be a handy data point, and despite the chill you feel rather over-warm when you think about it.
+        *set daring +25
+        *set butterump_adversary -10
+        *set butterump_amor +10
+        *set stamina -25
+        *finish
+    *selectable_if(stamina >= 10) #Ask her to take a dip in the Cocoon Lagoon (cost: 10% stamina)
+        With a splish and a splash the two of you caper about in the lagoon.  She playfully spouts water at you and disappears beneath the surface in a flash when you attempt retaliation.  You notice appreciatively that her gloriously bulbous figure is pronounced by her slick feathers; you hope your own sodden visage is half as appealing to her... you have been lifting with the walrus lately. 
+        *set stamina -10
+        *set butterump_adversary -25
+        *set butterump_amor +25
+        *finish
+    #Ask her to bask in the scenic view from Blustery Bluff
+    #Ask her to get cozy in Cozy Cove

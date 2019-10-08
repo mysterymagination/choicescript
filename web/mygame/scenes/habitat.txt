@@ -19,4 +19,15 @@ Butterump is glancing at your shyly and looking swiftly away with a giggle every
         *set butterump_amor +25
         *finish
     #Ask her to bask in the scenic view from Blustery Bluff
+        The winds ruffle your feathers as you and Butterump sit in awed silence before the splendiforous sunset view.  A gaggle of penguin chicks rush by far below, frolicing, their downy feathers puffing up and making them all look like rolling fuzzballs; as the youngins play, Butterump lays her left flipper over your right and her head on your shoulder.
+        *set butterump_adversary -50
+        *set butterump_amor +50 
+        *finish
     #Ask her to get cozy in Cozy Cove
+        Butterump's white plumage goes pink and her black plumage a deep scarlet as a powerful blush overwhelms her.  "I, uh, I don't know about that.  At least, maybe not yet?  I wanna get to know you better before, erm, 'getting cozy'."  She gives you a forced smile and rushes off.  Ooch.
+        *set butterump_adversary +25
+        *set butterump_amor -25
+        *set daring +25
+        *finish
+
+Well anyway, time to continue on with the quest for flight!  

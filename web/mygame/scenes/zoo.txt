@@ -1,3 +1,25 @@
-Well anyway, time to focus on flight!  As night falls and zoo surveillance drops to a skeleton crew, you prepare your kit.  You've spent the past weeks gathering detritus dropped or thrown by careless humans near enough to the penguin habitat to be reached by questing beaks.  You've managed to acquire a flashlight, a few scrunchies, and your prized possession: a meter of tough nylon cord, perfect for climbing.
+Well anyway, time to focus on flight!  As night falls and zoo surveillance drops to a skeleton crew, you prepare your kit.  You've spent the past weeks gathering detritus dropped or thrown by careless humans near enough to the penguin habitat to be reached by questing beaks.  You've managed to acquire a flashlight, a few scrunchies, and your prized possession: a meter of tough nylon cord, perfect for climbing.  There's a coupla vectors you could explore for your escape:
 
-Affixing the cord to the flashlight, you carefully huck it up and through the bars of the railing overlooking the penguin habitat.  With a little coaxing, you manage to get it firmly lodged on the far side of two bars, thus providing a solid anchor point.
+*choice
+    #Build up snow on the lagoon ramp in order to rocket out of the habitat
+        What better way to start your journey towards flight than flying?  Never mind the falling bit afterwards.  You spend several hours piling up snow to make the end of the ramp a steeper jump.  Mustering your courage, you launch yourself off the top of Mt. Snifflins and skid down the slide like some sort of ice bullet fired from an ice gun, only with none of the shattering and melting that would entail.  With speeds approaching Mach 1 and your feathers flapping wildly in the wind, you careen up off the ramp and easily sail over the walls surrounding the habitat.  The landing thereafter, in the parking lot, leaves a rather large and vaguely penguin-shaped crater in the asphalt, but you'll be fine.  Wounds heal.  Your beak looks better bent slighlty to the side.  Ouch.
+        *set daring +25
+        *set health -25
+        *goto freedom
+    *selectable_if(stamina >= 25) #Use the pilfered products to climb out of the habitat (cost: 25% stamina)
+        Affixing the cord to the flashlight, you carefully huck it up and through the bars of the railing overlooking the penguin habitat.  With a little coaxing, you manage to get it firmly lodged on the far side of two bars, thus providing a solid anchor point.  With a heave, heft, and *hwooof* you manage to scrabble up the side of the walls and over the railing.
+        *set stamina -25
+        *goto freedom
+
+*label freedom
+
+Freeeedom!  Now that no walls contain you, you have the chance to go wherever you please to pursue flight.  Two prime options come to mind:
+
+*choice
+    #Waddle on down the street to the human jet propulsion laboratory
+        Lab placeholder
+        *finish
+    #Head to the rookery and ask the ravens for a lift
+        Raven placeholder
+        *finish
+

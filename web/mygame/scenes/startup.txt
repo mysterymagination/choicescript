@@ -1,4 +1,4 @@
-*title Penguin's Choice, Or Showdown at the Zoo!
+*title Penguin's Choice, Or Flights of Fancy!
 *author Jeff Creswell
 *scene_list
   startup
@@ -11,6 +11,7 @@
 *create butterump_adversary 40
 *create health 100
 *create stamina 100
+*create bShinyInv false
 
 Welcome to the zoo!  Specifically, the penguin habitat.
 
@@ -24,7 +25,7 @@ There's an icy ramp nearby over the lagoon where your people frolic.  You could 
 
 *choice
   #Wave and nod your beak in an avian smile.
-    She waves back merrily and your white plumage appears pink for a moment as the skin beneath flushes scarlet.
+    She waves back merrily and your white plumage appears pink for a moment as the skin beneath flushes deeply.
     *set daring -10
     *set butterump_amor +25
     *set butterump_adversary -25

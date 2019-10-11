@@ -17,9 +17,9 @@ Freeeedom!  Now that no walls contain you, you have the chance to go wherever yo
 
 *choice
     #Waddle on down the street to the human jet propulsion laboratory
-        Lab placeholder
+        Why they put a JPL right next to a zoo you'll never understand, but perhaps it was fate.  Regardless, you set off for rocking rocketry!
         *finish
     #Head to the rookery and ask the ravens for a lift
-        Raven placeholder
+        The ravens can fly, and they're relatively tractable.  As everyone knows, ravens and penguins share a symbiotic relationship whereby ravens are camoflauged on the black plumage of penguins and enjoy the relative safety provided by the larger birds, and penguins enjoy the crafty suggestions and keen perception of the ravens.  More than one jolly penguin has been driven to evil mischeif by listening too closely to attached ravens, but that probably won't happen this time.  Anyway, you'd be asking them to lift you and fly rather than whisper cleverness.  What could go wrong?
         *finish
 

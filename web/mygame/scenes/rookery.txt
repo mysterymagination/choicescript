@@ -1,0 +1,13 @@
+These fine feathered fellows are always up for a deal.  Literally -- they seem to never sleep.  You're not sure what sort of price they would want in exchange for flight, but it's probably going to be higher than the going rate for random whispered cleverness.  As you approach, their glistening beady black eyes watch you hungrily; ravens can smell need.  Ravens require an odd sort of negotiation protocol wherein the person asking for help presents their offer of payment before their request.  The purpose is to impress upon potential clients the need to make their very best offer up front.  You don't have much to offer them, but several options come to mind:
+
+*choice
+    *if (bShinyInv) #Offer the birds your shiny trinket
+    #Offer the birds your black plumage to ride and hide in, the standard price
+        A large raven flutters down and lands upon a low branch tactically just above your head, meaning you can converse without shouting but you still have to look up to her.  "Greetings, Puggelump Penguinson.  We have heard tales of your adventures and prowess, and your offer to be our perch is intriguing.  I do hope your ask is not so tall an order that such a mild offer makes it impossible."
+
+        "Well, I was hoping a large group of your could glom onto my back and then take flight on command, thus granting me flight."  You bob your beak in a penguin approximation of a sheepish grin.
+
+        The raven stares at you in absolute silence for a full minute, then burst forth with a riot of cackling avian laughter (mostly just variously staccato caws that pain your earholes).  "Never heard that one before.  How bold of you to make a categorically novel request with only the usual offer of service in return.  All right!  But we won't be gentle..."
+        *set daring +25
+        *goto labelRavenFlight
+    #Offer them your blood

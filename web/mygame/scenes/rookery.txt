@@ -1,9 +1,17 @@
-These fine feathered fellows are always up for a deal.  Literally -- they seem to never sleep.  You're not sure what sort of price they would want in exchange for flight, but it's probably going to be higher than the going rate for random whispered cleverness.  As you approach, their glistening beady black eyes watch you hungrily; ravens can smell need.  Ravens require an odd sort of negotiation protocol wherein the person asking for help presents their offer of payment before their request.  The purpose is to impress upon potential clients the need to make their very best offer up front.  You don't have much to offer them, but several options come to mind:
+These fine feathered fellows are always up for a deal.  Literally -- they seem to never sleep.  You're not sure what sort of price they would want in exchange for flight, but it's probably going to be higher than the going rate for random whispered cleverness.  As you approach, their glistening beady black eyes watch you hungrily; ravens can smell need.  Ravens require an odd sort of negotiation protocol wherein the person asking for help presents their offer of payment before their request.  The purpose is to impress upon potential clients the need to make their very best offer up front.  
+
+A large raven flutters down and lands upon a low branch tactically just above your head, meaning you can converse without shouting but you still have to look up to her.  "Greetings, Puggelump Penguinson.  What have you brought for us?"
+
+You don't have much to offer them, but several options come to mind:
 
 *choice
     *if (bShinyInv) #Offer the birds your shiny trinket
+        With a shriek, the raven swoops down and snatches the offered barrette out of your flipper.  "This is a fine thing, indeed!  It... fascinates me."  Her eyes are fixed on the jewelry at her talons, and several silent seconds pass as you politely wait for her to remember you.
+
+        Eventually losing faith that her attention will ever resurface on its own, you clear your throat meaninfully.  Without looking up, the raven swipes a wing in your direction and a host of shadowy winged forms descend on you.
+        *goto labelBloodyRavenFlight
     #Offer the birds your black plumage to ride and hide in, the standard price
-        A large raven flutters down and lands upon a low branch tactically just above your head, meaning you can converse without shouting but you still have to look up to her.  "Greetings, Puggelump Penguinson.  We have heard tales of your adventures and prowess, and your offer to be our perch is intriguing.  I do hope your ask is not so tall an order that such a mild offer makes it impossible."
+        The raven cocks her head at you pensively.  "We have heard tales of your adventures and prowess, and your offer to be our perch is intriguing.  I do hope your ask is not so tall an order that such a mild offer makes it impossible."
 
         "Well, I was hoping a large group of your could glom onto my back and then take flight on command, thus granting me flight."  You bob your beak in a penguin approximation of a sheepish grin.
 
@@ -11,3 +19,25 @@ These fine feathered fellows are always up for a deal.  Literally -- they seem t
         *set daring +25
         *goto labelRavenFlight
     #Offer them your blood
+        The raven's eyes seem to grow darker, devouring all nearby light and forming an abyssal corona.  "An excellent offering.  Your need must be great indeed to justify such a sacrifice -- what would you have of us?"
+
+        "I wanna fly!  I'm hoping that enough ravens can fit on my back to lift me into the air and fly around on command, thereby granting my flight by proxy.  Can you do it?"
+
+        "To be sure we can, especially driven by the wildfire that ignites in our hearts upon tasting blood freely given.  Brothers and sisters, attend me!  It is time to feast."  She draws out this last word as if savoring every syllable.  In moments a great black cloud has descended on you, pecking and scratching in a scarlet maelstrom.  
+        *set health -50
+        *if health <= 0
+            *goto labelBloodyRavenDeath
+        *else
+            *goto labelBloodyRavenFlight
+
+*label labelRavenFlight
+    The ravens crowd around thickly in your black plumage.  As one, they spread their wings and flap, rocketing you off the ground and into the whimsical winds!  
+    *goto FLIGHT
+*label labelBloodyRavenFlight
+    A rain of blood falls upon the penguin habitat as the ravens carry your ravaged body over it, but you care not: you are flying at last!  These wounds will heal and the scars will forever serve as a bookmark in your memory for this momentous occasion.  
+    *goto FLIGHT
+*label labelBloodyRavenDeath
+    Sadly, when the ravens finish feasting on your flesh there is little left to enjoy the subsequent flight.  Your vision lasts just long enough to see the ground drop away, but you are far too exhausted to feel a thrill at your first experience truly flying.  Your eyelids are so heavy.  Maybe you could close your eyes and rest, just for a moment...
+
+    💀 IT IS A SAD THING THAT YOUR ADVENTURE HAS ENDED HERE 💀
+    *finish

@@ -19,7 +19,7 @@ Things are cool here, literally and figuratively, but lately you've been feeling
 
 *page_break
 
-Butterump, your crushingly beloved crush, is watching you with interest.  She's a sweet girl, though a little timid at times; she's basically everyone's big sister and her main concern tends to be ensuring all of penguinkind is safe and sound.
+Butterump, your crushingly beloved crush, is watching you with interest.  She's a sweet girl and tends towards shyness except where protecting her kin is concerned; she's basically everyone's big sister and her main concern tends to be ensuring all of penguinkind is safe and sound.
 
 There's an icy ramp nearby over the lagoon where your people frolic.  You could try your flipper-y wings at 'flying' off it to impress her; it'd cost some energy and could hurt a smidge, but darn would it ever be epic.  Or, maybe it would be safer simply to wave?  What will you do?
 
@@ -27,15 +27,15 @@ There's an icy ramp nearby over the lagoon where your people frolic.  You could 
   #Wave and nod your beak in an avian smile.
     She waves back merrily and your white plumage appears pink for a moment as the skin beneath flushes deeply.
     *set daring -10
-    *set butterump_amor +25
-    *set butterump_adversary -25
+    *set amor +25
+    *set adversary -25
     *finish
   *selectable_if(stamina >= 25) #Go for it -- let's fly right now! (cost: 10% health and 25% stamina)
     You race up to the top of Mt. Snifflins and dive towards the ramp, sliding along on your svelte belly feathers.  With a *WHOOSH* you sail off the end of the ramp and then splash down into the lagoon smooth as a polished beak.
     Butterump gasps as your body turns into a tuxedo blur at the apex of your descent speed, but once you surface triumphantly you find her clapping her flippers together enthusiastically and cheering you on.  That was spectacular, but it still wasn't flying...
     *set daring +25
-    *set butterump_adversary +10
-    *set butterump_amor -10
+    *set adversary +10
+    *set amor -10
     *set health -10
     *set stamina -25
     *set bImpressiveDive true

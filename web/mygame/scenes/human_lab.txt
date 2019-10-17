@@ -1,0 +1,70 @@
+Luckily, the rocketeers are here all day and night.  Rocket science must be stimulating! Now the question is how to proceed... normally you wouldn't dare to speak directly to humans, but rocketfolk are an odd breed; their worldview is likely more malleable than most and thus they might be quick to accept a talking animal.  Maybe.  Or they might truss you up in chains and put you on display someplace.  Alternatively, you could try to break in through the handily open basement window -- it's accessible, but you can see some worrying flashing and showers of sparks within.  Finally, there is a large rocket waiting on the launchpad beside the building; you could simply latch on and wait.
+
+*choice
+    *selectable_if(daring >= 50) #Knock on the door and ask to fly
+        Approaching the building with a confident strut, you knock by way of whacking your flippers on the door repeatedly.  After a few tense moments, a caffeinated human woman with fly-away hair blinks owlishly down at you through goggles with thick lenses set in well-worn leather.
+
+        "Hullo Ma'am.  I'd like to fly, and I've heard that making normally ground-bound things airborne is your specialty!"
+
+        She blinks a few more times and then a broad smile spreads across her face.  "C'mon in, little friend.  I've never met a talking penguin before; are there many who can talk?"
+
+        "Oh sure, pretty much all of us actually.  Most animals at least learn enough of the local languages to understand what humans are saying.  Penguins, as the world's foremost paragons of social interaction at least in so far as applied frolicing is concerned, have learned to speak and often read many human languages."  You pause for a moment, astounded by how loose the prospect of incipient flight has made your razor-spined tongue.  "Um, keep that under your hat, please; it's sort of privileged information."
+
+        Nodding fervently enough to set her ponytail bouncing, the rocketeer leads you into a room marked "Danger: Explosive Fun Within".  "This is our assets repository," she explains, "which contains our finished products and also some non-trivial raw materials we often make use of in rocketry.  We've got just the thing for you!"  
+        *page_break
+        She scampers to the back of the room, fairly skipping with excitement.  After some rapid rummaging sounds, a *clank*, a *smash*, and an eyebrow-raising *squelch*, she returns with a silver backpack contraption and an incandescent smile.  "Behold, a jetpack!  We can strap it to you and grant you sub-mesospheric flight for a good thirty minutes at a time.  Truth be told, I'm not sure why we made one penguin-sized... maybe for flying children?"  She slips the leather straps around and over your flippers, securing the armature with a belt over your belly.  "Well anyway, it's perfect for you!  There's a control panel on the belt there -- press the rightmost button to accelerate and the leftmost to decelerate."
+
+        Moments later you find yourself in the yard outside in the center of a sizeable fire-blasted radius of ground.  The rocketeer stands back a good bit, cheering you on and bouncing merrily on her toes.  With barely a touch of the accelerator, fire erupts from your behind in a roar to shame any of those arrogant lions from the zoo.  
+        *goto labelRocketFlight
+
+    #Slip in the basement window 
+        Dropping down as gracefully as a rotund penguin can, your talons scrabbling at the concrete wall while your flippers very quickly fail to support you, you land squarely on your bottom with a loud *thunk*.  Standing up with a stylish flipper-flourish such that your fall seems deliberate, you take in the scene: two humans wearing metal masks are inducing giant serpents to breathe blue-white flame onto a large silver tube, its seams blasted black.  They're quite absorbed in their work and haven't noticed your entrance.  The stairs leading up are across the room, but there are bountiful shadows you could skulk through.  Shivering slightly at your own violent impulses, you also consider using the element of surprise to attack the humans -- there's a nice sized lead pipe near at hand that could be employed whacking them over the noggin.  Surely there's no need for all that... then again, you MUST fly and violence would secure your passage.
+        *choice
+            #Sneak past
+                Silent as a mouse that happens to be giant and also clumsy, which is to say not actually very quietly at all, you stumble through the shadows skirting the room.  The huamns are immersed in their work and probably wouldn't have noticed if you'd strolled right up and joined them at the tube.  With not-quite-catlike grace, you tiptalon up the staircase, hitting every squeak and creak on the way.
+                *goto labelSneakUpstairs
+            #Whack noggins
+                Seizing the pipe, you leap up and bring it swiftly across the back of the nearer human's head.  He collapses forward onto the tube, his inferno serpent detaching itself from his grasp and continuing to spew a stream of fire across the tile floor.  The other looks up, startled, and raises his mask.  Coming 'round the side of the tube, he pulls a hammer from his belt and hurls it at you!  You parry in a fumbley manner and only succeed in deflecting the blow from your beak to your breast.  Bones cave in beneath a relentless torrent of bludgeoning pain, also iron hammer, and a shrieking squawk tears free of your beak despite your stalwart effort to mask your suffering.  Murderous fury gleaming in your beady little eyes, you swing your pipe swiftly back and forth between the remaining human's knees.  He crumples to the floor, writhing in agony.  Calmly, a trickle of blood from your new mask of knee-splatter rolling down your beak like a pitiless tear, you step up and split his head like an overripe melon.  Just for good measure you pull down the first human and end him as well.
+                *set health -50
+                *if(health <= 0)
+                    *goto labelWelderDeath
+                *else 
+                    *goto labelSneakUpstairs
+
+    #Strap on to the large rocket
+        Pilfering some straps and clasps from convenient toolboxes left out beside the giant rocket, you fashion a rather comfortable little harness for yourself.  Climbing in, you hunker down to wait for daylight.  Despite the fact that you're nearly vibrating with anticipation, you drift off to dreamland after a few hours.
+
+        The next afternoon you're awakened by the world suddenly beginning to quake and roar around you.  The rocket is taking off!  That was the hope of course, though you find yourself with a few burgeoning regrets now that you realize there's no way down once you're finished flying... except the usual way.  Ah well, that'll be a problem for future Puggelump!  A human points towards your harness and shouts, but it's too late to halt the launch.  They scurry like ants beneath you, rightly.   
+        *goto labelRocketFlight
+
+*label labelWelderDeath
+    The searing light of the serpents' fire breath is the last sight your eyes will ever take in -- with your lungs quickly collapsing and your heart skewered by bone shards, you succumb to your wounds and the ravenous hunger of the abyss.
+
+    💀 IT IS A SAD THING THAT YOUR ADVENTURE HAS ENDED HERE 💀
+    *finish
+*label labelSneakUpstairs
+    Emerging in a small laboratory filled with fuming beakers of rocket fuel, you take stock of the situation.  There's a human woman bustling about, her lab coat twirling like the skirts of an elegant dancer, humming to herself.  As you watch, still as a portly statue, she exits the room and shuts off the light.  Under cover of darkness, you shuffle carefully between the benches with their beakers.  You could follow the rhythmic lady out of the lab, or try to climb a ladder in the far corner leading up to the roof.  The ladder seems like the safer route, but penguins aren't the best vertical climbers...
+    *choice 
+        #Climb the ladder on up
+            Eyes shining with determination, you stretch your flippers and warm up for exertion.
+            *if(stamina >= 50)
+                The roof happens to be home to a large mound shrouded by a tarp.  Laboriously pulling it off reveals a sleek black aircraft!  Better yet, the cockpit is open and the keys are in the ignition for some reason.  Hopping on in, you find that happily the controls are within reach at your flippers -- without hesitating, you activate
+            *else 
+                You make it up about halfway before the lactic acid buildup in your flippers renders them useless and you slip off.  Plummeting the short distance to the ground earns you a sore rump, but isn't too terribly damaging.  There might be some internal hemhorraging.  Ouch.
+                *set health -10
+                *set stamina 0 
+                *if(health <= 0)
+                    Something deep inside you goes *pop* unpleasantly and your talons go out from under you.  The fumes from the surrounding rocket fuel overwhelm you and darkness drowns consciousness.
+
+                    💀 IT IS A SAD THING THAT YOUR ADVENTURE HAS ENDED HERE 💀
+                    *finish
+                *else 
+                    *goto labelFollowRocketeer
+        #Follow the bobbing tail of the rocketeer
+            *goto labelFollowRocketeer
+
+*label labelFollowRocketeer
+
+*label labelRocketFlight
+    The ground rapidly disappears beneath you and you spread your flippers joyously.  Glorying in the whimsical winds, you set off for new horizons!
+    *goto FLIGHT

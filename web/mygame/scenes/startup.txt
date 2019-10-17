@@ -7,8 +7,8 @@
 
 *create daring 0
 *create bImpressiveDive false
-*create butterump_amor 60
-*create butterump_adversary 40
+*create amor 60
+*create adversary 40
 *create health 100
 *create stamina 100
 *create bShinyInv false

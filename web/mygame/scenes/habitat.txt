@@ -33,7 +33,7 @@ Butterump is glancing at you shyly and looking swiftly away with a giggle every 
         *set amor +25
         *finish
     #Ask her to bask in the scenic view from Blustery Bluff
-        The winds ruffle your feathers as you and Butterump sit in awed silence before the splendiforous sunset view.  A gaggle of penguin chicks rush by far below, frolicing, their downy feathers puffing up and making them all look like rolling fuzzballs; as the youngins play, Butterump lays her left flipper over your right and her head on your shoulder.
+        The winds ruffle your feathers as you and Butterump sit in awed silence before the splendiforous sunset view.  A gaggle of penguin chicks rush by far below, frolicking, their downy feathers puffing up and making them all look like rolling fuzzballs; as the youngins play, Butterump lays her left flipper over your right and her head on your shoulder.
         *set adversary -50
         *set amor +50 
         *finish

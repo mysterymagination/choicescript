@@ -9,7 +9,7 @@ You don't have much to offer them, but several options come to mind:
         With a shriek, the raven swoops down and snatches the offered barrette out of your flipper.  "This is a fine thing, indeed!  It... fascinates me."  Her eyes are fixed on the jewelry at her talons, and several silent seconds pass as you politely wait for her to remember you.
 
         Eventually losing faith that her attention will ever resurface on its own, you clear your throat meaninfully.  Without looking up, the raven swipes a wing in your direction and a host of shadowy winged forms descend on you.
-        *goto labelBloodyRavenFlight
+        *goto labelRavenFlight
     #Offer the birds your black plumage to ride and hide in, the standard price
         The raven cocks her head at you pensively.  "We have heard tales of your adventures and prowess, and your offer to be our perch is intriguing.  I do hope your ask is not so tall an order that such a mild offer makes it impossible."
 
@@ -21,23 +21,26 @@ You don't have much to offer them, but several options come to mind:
     #Offer them your blood
         The raven's eyes seem to grow darker, devouring all nearby light and forming an abyssal corona.  "An excellent offering.  Your need must be great indeed to justify such a sacrifice -- what would you have of us?"
 
-        "I wanna fly!  I'm hoping that enough ravens can fit on my back to lift me into the air and fly around on command, thereby granting my flight by proxy.  Can you do it?"
+        "I wanna fly!  I'm hoping that enough ravens can fit on my back to lift me into the air and fly around on command, thereby granting me flight by proxy.  Can you do it?"
 
         "To be sure we can, especially driven by the wildfire that ignites in our hearts upon tasting blood freely given.  Brothers and sisters, attend me!  It is time to feast."  She draws out this last word as if savoring every syllable.  In moments a great black cloud has descended on you, pecking and scratching in a scarlet maelstrom.  
         *set health -50
+        *page_break
         *if health <= 0
             *goto labelBloodyRavenDeath
         *else
             *goto labelBloodyRavenFlight
 
 *label labelRavenFlight
-    The ravens crowd around thickly in your black plumage.  As one, they spread their wings and flap, rocketing you off the ground and into the whimsical winds!  
-    *goto FLIGHT
-*label labelBloodyRavenFlight
-    A rain of blood falls upon the penguin habitat as the ravens carry your ravaged body over it, but you care not: you are flying at last!  These wounds will heal and the scars will forever serve as a bookmark in your memory for this momentous occasion.  
-    *goto FLIGHT
-*label labelBloodyRavenDeath
-    Sadly, when the ravens finish feasting on your flesh there is little left to enjoy the subsequent flight.  Your vision lasts just long enough to see the ground drop away, but you are far too exhausted to feel a thrill at your first experience truly flying.  Your eyelids are so heavy.  Maybe you could close your eyes and rest, just for a moment...
+The ravens crowd around thickly in your black plumage.  As one, they spread their wings and flap, rocketing you off the ground and into the whimsical winds!  
+*goto_scene FLIGHT
 
-    💀 IT IS A SAD THING THAT YOUR ADVENTURE HAS ENDED HERE 💀
-    *finish
+*label labelBloodyRavenFlight
+A rain of blood falls upon the penguin habitat as the ravens carry your ravaged body over it, but you care not: you are flying at last!  These wounds will heal and the scars will forever serve as a bookmark in your memory for this momentous occasion.  
+*goto_scene FLIGHT
+
+*label labelBloodyRavenDeath
+Sadly, when the ravens finish feasting on your flesh there is little left to enjoy the subsequent flight.  Your vision lasts just long enough to see the ground drop away, but you are far too exhausted to feel a thrill at your first experience truly flying.  Your eyelids are so heavy.  Maybe you could close your eyes and rest, just for a moment...
+
+💀 IT IS A SAD THING THAT YOUR ADVENTURE HAS ENDED HERE 💀
+*finish

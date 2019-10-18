@@ -19,7 +19,7 @@ Butterump is glancing at your shyly and looking swiftly away with a giggle every
         *choice 
             #Pick up the barrette and give it to Butterump
                 
-                Her eyes go wide at the oppulent gift and her white plumage goes pink.  "Thank you so much..."  She breathes, disbelieving.  She takes the barrette and clips it into the feathers near her temple.  
+                Her eyes go wide at the oppulent gift and her white plumage goes pink.  "Thank you so much..."  She breathes, disbelieving.  She takes the barrette and clips it into the feathers near her temple.  Her plumage practically neon, she leans over and gives you a peck on the cheek.  The kissy kind.  
                 *set adversary -25
                 *set amor +25
                 *finish

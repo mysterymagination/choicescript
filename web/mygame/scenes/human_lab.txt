@@ -18,12 +18,13 @@ Luckily, the rocketeers are here all day and night.  Rocket science must be stim
             #Whack noggins
                 Seizing the pipe, you leap up and bring it swiftly across the back of the nearer human's head.  He collapses forward onto the tube, his inferno serpent detaching itself from his grasp and continuing to spew a stream of fire across the tile floor.  The other looks up, startled, and raises his mask.  Coming 'round the side of the tube, he pulls a hammer from his belt and hurls it at you!  You parry in a fumbley manner and only succeed in deflecting the blow from your beak to your breast.  Bones cave in beneath a relentless torrent of bludgeoning pain, also iron hammer, and a shrieking squawk tears free of your beak despite your stalwart effort to mask your suffering.  
                 *page_break
-                Murderous fury gleaming in your beady little eyes, you swing your pipe swiftly back and forth between the remaining human's knees.  He crumples to the floor, writhing in agony.  Calmly, a trickle of blood from your new mask of knee-splatter rolling down your beak like a pitiless tear, you step up and split his head like an overripe melon.  Just for good measure you pull down the first human and end him as well.  That business sorted, you trudge wearily up the stairs.
-                *page_break
+                
                 *set health -50
                 *if(health <= 0)
                     *goto labelWelderDeath
                 *else 
+                    Murderous fury gleaming in your beady little eyes, you swing your pipe swiftly back and forth between the remaining human's knees.  He crumples to the floor, writhing in agony.  Calmly, a trickle of blood from your new mask of knee-splatter rolling down your beak like a pitiless tear, you step up and split his head like an overripe melon.  Just for good measure you pull down the first human and end him as well.  That business sorted, you trudge wearily up the stairs.
+                    *page_break
                     *goto labelSneakUpstairs
 
     #Strap on to the large rocket

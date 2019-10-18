@@ -12,7 +12,7 @@ Luckily, the rocketeers are here all day and night.  Rocket science must be stim
         They're quite absorbed in their work and haven't noticed your entrance.  The stairs leading up are across the room, but there are bountiful shadows you could skulk through.  Shivering slightly at your own violent impulses, you also consider using the element of surprise to attack the humans -- there's a nice sized lead pipe near at hand that could be employed whacking them over the noggin.  Surely there's no need for all that... then again, you MUST fly and violence would secure your passage.
         *choice
             #Sneak past
-                Silent as a mouse that happens to be giant and also clumsy, which is to say not actually very quietly at all, you stumble through the shadows skirting the room.  The huamns are immersed in their work and probably wouldn't have noticed if you'd strolled right up and joined them at the tube.  With not-quite-catlike grace, you tiptalon up the staircase, hitting every squeak and creak on the way.
+                Silent as a mouse that happens to be giant and also clumsy, which is to say not actually very quietly at all, you stumble through the shadows skirting the room.  The humans are immersed in their work and probably wouldn't have noticed if you'd strolled right up and joined them at the tube.  With not-quite-catlike grace, you tiptalon up the staircase, hitting every squeak and creak on the way.
                 *page_break
                 *goto labelSneakUpstairs
             #Whack noggins
@@ -40,7 +40,7 @@ The searing light of the serpents' fire breath is the last sight your eyes will 
 *finish
 
 *label labelSneakUpstairs
-Emerging in a small laboratory filled with fuming beakers of rocket fuel, you take stock of the situation.  There's a human woman bustling about, her lab coat twirling like the skirts of an elegant dancer, humming to herself.  As you watch, still as a portly statue, she exits the room and shuts off the light.  Under cover of darkness, you shuffle carefully between the benches with their beakers.  You could follow the rhythmic lady out of the lab, or try to climb a ladder in the far corner leading up to the roof.  The ladder seems like the safer route, but penguins aren't the best vertical climbers...
+Emerging in a small laboratory filled with fuming beakers of rocket fuel, you take stock of the situation.  There's a human woman bustling about as she hums to herself and rocks out to some tune only she can hear, her lab coat twirling like the skirts of an elegant dancer.  As you watch, still as a portly statue, she exits the room and shuts off the light.  Under cover of darkness, you shuffle carefully between the benches with their beakers.  You could follow the rhythmic lady out of the lab, or try to climb a ladder in the far corner leading up to the roof.  The ladder seems like the safer route, but penguins aren't the best vertical climbers...
 *choice 
     #Climb the ladder on up
         Eyes shining with determination, you stretch your flippers and warm up for exertion.

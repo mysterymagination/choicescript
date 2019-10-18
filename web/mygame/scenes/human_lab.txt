@@ -30,7 +30,7 @@ Luckily, the rocketeers are here all day and night.  Rocket science must be stim
     #Strap on to the large rocket
         Pilfering some straps and clasps from convenient toolboxes left out beside the giant rocket, you fashion a rather comfortable little harness for yourself.  Climbing in, you hunker down to wait for daylight.  Despite the fact that you're nearly vibrating with anticipation, you drift off to dreamland after a few hours.
 
-        The next afternoon you're awakened by the world suddenly beginning to quake and roar around you.  The rocket is taking off!  That was the hope of course, though you find yourself with a few burgeoning regrets now that you realize there's no way down once you're finished flying... except the usual way.  Ah well, that'll be a problem for future Puggelump!  A human points towards your harness and shouts, but it's too late to halt the launch.  They scurry like ants beneath you, rightly.   
+        The next afternoon you're awakened by the world suddenly beginning to quake and roar around you.  The rocket is taking off!  That was the hope of course, though you find yourself with a few burgeoning regrets now that you realize there's no way down once you're finished flying... except the usual way.  Ah well, that'll be a problem for future Puggelump!  A human points towards your harness and shouts, but it's too late to halt the launch.  They scurry like ants far below you, rightly.   
         *goto labelRocketFlight
 
 *label labelWelderDeath
